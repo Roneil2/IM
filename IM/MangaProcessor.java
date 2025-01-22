@@ -24,7 +24,7 @@ public class MangaProcessor {
     }
 
     public static void main(String[] args) {
-        String fileName = "Test3/MANGA-Data-Set-Group-5.csv"; // Replace with your dataset path
+        String fileName = "Test3/MANGA-Data-Set-Group-5.csv"; 
         List<Manga> mangaList = loadDataset(fileName);
         if (mangaList.isEmpty()) {
             System.out.println("No manga records loaded.");
